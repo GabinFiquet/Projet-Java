@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button fx:id="btnStart" layoutX="465.0" layoutY="75.0" mnemonicParsing="false" onAction="#actionBouton" prefHeight="50.0" prefWidth="100.0" text="Start">
+         <font>
+            <Font name="Gill Sans MT" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnTuto" layoutX="465.0" layoutY="175.0" mnemonicParsing="false" onAction="#actionBouton" prefHeight="50.0" prefWidth="100.0" text="Instructions">
+         <font>
+            <Font name="Gill Sans MT" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnExit" layoutX="465.0" layoutY="275.0" mnemonicParsing="false" onAction="#actionBouton" prefHeight="50.0" prefWidth="100.0" text="Exit">
+         <font>
+            <Font name="Gill Sans MT" size="16.0" />
+         </font>
+      </Button>
+      
+      <Rectangle fx:id="btnVert" arcHeight="5.0" arcWidth="5.0" fill="#00aa00" height="150.0" layoutX="120.0" layoutY="50.0" onMouseClicked="#userInput" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+      <Rectangle fx:id="btnRouge" arcHeight="5.0" arcWidth="5.0" fill="#cf000f" height="150.0" layoutX="270.0" layoutY="50.0" onMouseClicked="#userInput" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+      <Rectangle fx:id="btnJaune" arcHeight="5.0" arcWidth="5.0" fill="#ffce00" height="150.0" layoutX="120.0" layoutY="200.0" onMouseClicked="#userInput" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+      <Rectangle fx:id="btnBleu" arcHeight="5.0" arcWidth="5.0" fill="#019fde" height="150.0" layoutX="270.0" layoutY="200.0" onMouseClicked="#userInput" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+      <TabPane layoutX="37.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" />
+   </children>
+</AnchorPane>
