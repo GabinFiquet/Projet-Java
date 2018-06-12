@@ -7,12 +7,15 @@ import java.util.ResourceBundle;
 import javafx.animation.FadeTransition;
 import javafx.animation.SequentialTransition;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
+import javafx.scene.effect.DropShadow;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.util.Duration;
 
@@ -58,6 +61,7 @@ public class Controller implements Initializable{
      
     @FXML
     private void actionBouton(ActionEvent e) {
+        
     	if(e.getSource() == btnStart){
     		ss.start();
     		for(String help: ss.getSequence()){
@@ -83,7 +87,48 @@ public class Controller implements Initializable{
      */
     @FXML
     private void userInput(MouseEvent e){
-    	if(ss.isGameOn()){	
+        
+        SequentialTransition s = new SequentialTransition();
+    	s.setCycleCount(1);
+    	s.setAutoReverse(false);
+        
+        if (e.getSource()==btnVert) {
+            FadeTransition ftvert = new FadeTransition(Duration.millis(100), btnVert);
+            ftvert.setAutoReverse(true);
+            ftvert.setFromValue(1.0);
+            ftvert.setToValue(0.5);
+            ftvert.setCycleCount(2);
+            s.getChildren().add(ftvert);
+        }
+        else if (e.getSource()==btnRouge) {
+            FadeTransition ftrouge = new FadeTransition(Duration.millis(100), btnRouge);
+            ftrouge.setAutoReverse(true);
+            ftrouge.setFromValue(1.0);
+            ftrouge.setToValue(0.5);
+            ftrouge.setCycleCount(2);
+            s.getChildren().add(ftrouge);
+        }
+        else if (e.getSource()==btnJaune) {
+            FadeTransition ftjaune = new FadeTransition(Duration.millis(100), btnJaune);
+            ftjaune.setAutoReverse(true);
+            ftjaune.setFromValue(1.0);
+            ftjaune.setToValue(0.5);
+            ftjaune.setCycleCount(2);
+            s.getChildren().add(ftjaune);
+        }
+        else if (e.getSource()==btnBleu) {
+	    FadeTransition ftbleu = new FadeTransition(Duration.millis(100), btnBleu);
+            ftbleu.setAutoReverse(true);
+            ftbleu.setFromValue(1.0);
+            ftbleu.setToValue(0.5);
+            ftbleu.setCycleCount(2);
+            s.getChildren().add(ftbleu);
+        }
+        
+        
+        s.play();
+        
+    	if(ss.isGameOn()){
     		if(e.getSource()==btnVert){
     			if(!ss.checkSequence("v")){
     				alertGameOver();
@@ -118,7 +163,6 @@ public class Controller implements Initializable{
 
     	}
     }
-    
 
     /**
      * Cette méthode alerte l'utilisateur que le jeu est terminé. 
