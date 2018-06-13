@@ -6,8 +6,8 @@ En tant que projet de fin d'années, nous avons choisi de faire un Simon Says. U
 
 ## Les règles
 
-Le jeu se présente sous la forme de quatre zones de couleurs qui sont très proche les unes des autres. Certaines de ces zones vont s'illuminer brievement forment un motif. Le but du joueur est de répéter le motif indiqué par le jeu. Plus il réussi à retrouver le motif fabriqué par le jeu, plus les modifs deviennet dur à reproduire.  
+Le jeu se présente sous la forme de quatre zones de couleurs qui sont très proche les unes des autres. Certaines de ces zones vont s'illuminer brievement forment un motif. Le but du joueur est de répéter le motif indiqué par le jeu. Plus il réussi à retrouver le motif fabriqué par le jeu, plus les motifs deviennent dur à reproduire.  
   
- - Si au stade 1 : 5 couleurs s'illuminent tels que Rouge, Bleu, Vert, Bleu, Bleu
- - Au stade 2, on pourrait avoir quelque chose comme : Rouge, Bleu, Vert, Bleu, Bleu, Rouge, Jaune
- - Et au stade 3 : Rouge, Bleu, vert, Bleu, Bleu, Rouge, Jaune, Vert, Vert
+ - Si au stade 1 : 5 couleurs s'illuminent tels que  :one: Rouge, Bleu, Vert, Bleu, Bleu
+ - Au stade 2, on pourrait avoir quelque chose comme  :two: : Rouge, Bleu, Vert, Bleu, Bleu, Rouge, Jaune
+ - Et au stade 3  :tree: : Rouge, Bleu, vert, Bleu, Bleu, Rouge, Jaune, Vert, Vert
