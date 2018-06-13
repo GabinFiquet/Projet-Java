@@ -17,5 +17,6 @@ Le jeu se présente sous la forme de quatre zones de couleurs qui sont très pro
 ## Les outils
 
 Pour créer se projet, qui se rapproche d'un jeu vidéo mais extrèmement simplifié, nous avons décidé d'utiliser :
-![Logo de Netbeans](https://www.zwodnik.com/media/cache/7d/ac/7dac82fd78702aeca1a98b1d1feee42e.png) NetBeans en tant qu'environnement de travail
 
+![Logo de Netbeans](https://dl2.macupdate.com/images/icons128/12078.png?d=1430771912) NetBeans en tant qu'environnement de travail
+Et Comme principale outil de réalisaton : Java FXML
