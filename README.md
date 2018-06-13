@@ -10,4 +10,4 @@ Le jeu se présente sous la forme de quatre zones de couleurs qui sont très pro
   
  - Si au stade 1 : 5 couleurs s'illuminent tels que  :one: Rouge, Bleu, Vert, Bleu, Bleu
  - Au stade 2, on pourrait avoir quelque chose comme  :two: : Rouge, Bleu, Vert, Bleu, Bleu, Rouge, Jaune
- - Et au stade 3  :tree: : Rouge, Bleu, vert, Bleu, Bleu, Rouge, Jaune, Vert, Vert
+ - Et au stade 3  :three: : Rouge, Bleu, vert, Bleu, Bleu, Rouge, Jaune, Vert, Vert
