@@ -42,3 +42,15 @@ Pour être sur de mesurer correctement ses ambitions pour le projet, il fallait 
 - **Mid cap** : faire fonctionner SimonsSays de manière récursive en augmentant la difficulté, avec un menu latéral d'options.
   
 - **Hard cap** : faire un Simon Says plusieurs niveaux de difficultés, des motifs arithmiques et des effets sonores.
+
+## La structure
+
+La structure correspond à l'organisation des classes, des méthodes et des différents héritages pour chacun d'eux.
+Un incident inattendu est venu affécté le modèle de la sctructure crée pour le projet. Le poste sur lequel le schéma était stocké a été volé à l'UPMC, et avec lui la base du projet, ainsi que l'UML correspondant. Voila pourquoi il est regrettable de ne pas pouvoir présenter d'UML au cours de ce rapport malgré la fin du projet.
+
+Cepandant il faut savoir qu'une application JAVA FXML possède déjà de base une structure particulière et qu'il est difficile de s'en défaire pour la customiser à sa guise. On retrouvera donc souvent
+
+- Un fichier xml pour la vue,
+- Un controller pour la gestion des événements,
+- Un fichier main pour lancer le projet,
+- Et un fichier GUI pour le style de la vue.
