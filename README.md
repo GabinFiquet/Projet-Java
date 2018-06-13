@@ -30,3 +30,15 @@ Quant à JAVA FXML, il se trouve que c'est un outils que nous avons partiellemen
 L'installation d'une application en JAVA FXML peut se faire en quelques clics sur NetBeans mais nécéssite certains type de fichier source pour pouvoir fonctionner.
   
   ![installer une application JAVA FXML](https://docs.oracle.com/javafx/scenebuilder/1/use_java_ides/img/nb-create-fxml-app.gif)
+  
+## Les objectifs
+
+Pour être sur ne pas viser trop haut ou trop bas pour se projet, il fallait fixer des cap de réussite du projet. Ces cap correspondait chacun à un différent niveau d'accomplissement du projet. L'idéal étant bien sur d'arriver au dernier cap, le << hard cap >> qui correspond au niveau de difficulté le plus hardu mais également le plus abouti de la tache.
+
+- **Base cap** : faire fonctionner un Simon Says en mode console
+
+- **Soft cap** : faire fonctionner un niveau de Simon Says, sur une interface graphique avec un écran de réussite et un écran d'échec 
+  
+- **Mid cap** : faire fonctionner SimonsSays de manière récursive en augmentant la difficulté, avec un menu latéral d'option
+  
+- **Hard cap** : faire un Simon Says plusieurs niveaux de difficultés, des motifs arithmiques et des effets sonores.
