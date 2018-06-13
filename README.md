@@ -25,4 +25,8 @@ Pour créer se projet, qui se rapproche d'un jeu vidéo mais extrèmement simpli
 
 NetBeans est le principale outils que nous avons utilisé en cour. Il permet de compiler, d'éxécuter et d'afficher son programme avec beaucoup d'aisence et dispose d'un détécteur / correcteur d'erreur très efficace.
 
-Quant à JAVAFXML, il se trouve que c'est un outils que nous avons partiellement utilisé en cours. Et le fait de pouvoir fabriquer la vue à l'aide d'un fichier xml et de positionner les éléments un peu comme on le ferait sur une page web; ce côté pratique de JAVAFXML nous a beaucoup influencé sur le choix de nos outils. Et puisqu'il s'agissait d'un jeu assez modeste, une lourde librairie de jeu vidéo n'était peut-être pas nécéssaire.
+Quant à JAVA FXML, il se trouve que c'est un outils que nous avons partiellement utilisé en cours. Et le fait de pouvoir fabriquer la vue à l'aide d'un fichier xml et de positionner les éléments un peu comme on le ferait sur une page web; ce côté pratique de JAVA FXML nous a beaucoup influencé sur le choix de nos outils. Et puisqu'il s'agissait d'un jeu assez modeste, une lourde librairie de jeu vidéo n'était peut-être pas nécéssaire.
+
+L'installation d'une application en JAVA FXML peut se faire en quelques clics sur NetBeans mais nécéssite certains type de fichier source pour pouvoir fonctionner.
+  
+  ![installer une application JAVA FXML](https://docs.oracle.com/javafx/scenebuilder/1/use_java_ides/img/nb-create-fxml-app.gif)
