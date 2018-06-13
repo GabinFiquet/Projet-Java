@@ -33,12 +33,12 @@ L'installation d'une application en JAVA FXML peut se faire en quelques clics su
   
 ## Les objectifs
 
-Pour être sur ne pas viser trop haut ou trop bas pour se projet, il fallait fixer des cap de réussite du projet. Ces cap correspondait chacun à un différent niveau d'accomplissement du projet. L'idéal étant bien sur d'arriver au dernier cap, le << hard cap >> qui correspond au niveau de difficulté le plus hardu mais également le plus abouti de la tache.
+Pour être sur de mesurer correctement ses ambitions pour le projet, il fallait fixer des caps de réussite du projet. Ces caps correspondaient chacun à un différent niveau d'accomplissement du projet. L'idéal étant bien sur d'arriver au dernier cap, le << hard cap >> qui correspond au niveau de difficulté le plus hardu mais également le plus abouti de la tache.
 
-- **Base cap** : faire fonctionner un Simon Says en mode console
+- **Base cap** : faire fonctionner un Simon Says en mode console.
 
-- **Soft cap** : faire fonctionner un niveau de Simon Says, sur une interface graphique avec un écran de réussite et un écran d'échec 
+- **Soft cap** : faire fonctionner un niveau de Simon Says, sur une interface graphique avec un écran de réussite et un écran d'échec.
   
-- **Mid cap** : faire fonctionner SimonsSays de manière récursive en augmentant la difficulté, avec un menu latéral d'option
+- **Mid cap** : faire fonctionner SimonsSays de manière récursive en augmentant la difficulté, avec un menu latéral d'options.
   
 - **Hard cap** : faire un Simon Says plusieurs niveaux de difficultés, des motifs arithmiques et des effets sonores.
