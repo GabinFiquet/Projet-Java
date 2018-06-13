@@ -22,3 +22,7 @@ Pour créer se projet, qui se rapproche d'un jeu vidéo mais extrèmement simpli
   
 ![logo de Java](https://dynamicimagesfr-v2b.netdna-ssl.com/product_class_external_product/java_128.png) Et Comme principale outil de réalisaton : Java FXML
   
+
+NetBeans est le principale outils que nous avons utilisé en cour. Il permet de compiler, d'éxécuter et d'afficher son programme avec beaucoup d'aisence et dispose d'un détécteur / correcteur d'erreur très efficace.
+
+Quant à JAVAFXML, il se trouve que c'est un outils que nous avons partiellement utilisé en cours. Et le fait de pouvoir fabriquer la vue à l'aide d'un fichier xml et de positionner les éléments un peu comme on le ferait sur une page web; ce côté pratique de JAVAFXML nous a beaucoup influencé sur le choix de nos outils. Et puisqu'il s'agissait d'un jeu assez modeste, une lourde librairie de jeu vidéo n'était peut-être pas nécéssaire.
