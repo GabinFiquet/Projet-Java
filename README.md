@@ -51,7 +51,26 @@ La structure correspond à l'organisation des classes, des méthodes et la gesti
 
 Cepandant il faut savoir qu'une application JAVA FXML possède déjà de base une structure particulière et qu'il est difficile de s'en défaire pour la customiser à sa guise. On retrouvera donc souvent
 
-- Un fichier xml pour la vue,
-- Un controller pour la gestion des événements,
-- Un fichier main pour lancer le projet,
-- Et un fichier GUI pour le style de la vue.
+- Un fichier GUI (xml) pour la vue,
+- Un controller pour la gestion des événements et les méthodes,
+- Un fichier main pour lancer le projet
+
+JAVA FXML permet aussi de styliser la vue via le css. Il n'est donc pas rare de voir un fichier css.
+
+Dans notre cas, notre projet regroupe les class cités ci dessus :
+
+ :paperclip: Une classe Main qui hérite de Application
+ 
+            Celle ci sert uniquement à lancer le jeu et à charger les ressources. Elle contient la méthode start
+ 
+ :paperclip: Une classe SimonSays
+ 
+            Celle ci contient tous les processus qui ont lieux lors du rédoulement des séquences de jeu. Ce fichier a été           utilisé pour la création du projet en mode console. 
+            
+ :paperclip: Un fichier GUI
+ 
+            Le seul élément du dossier source qui n'est pas un .java. Il contient des élément XML qui possèdent leurs propre nom et leurs propre attributs et peuvent être liés au fichier java à l'aide d'un id ou d'un gestionnaire d'event. C'est la dedans qu'on été modélisés les carrés de couleurs et les boutons du menu latéral.
+            
+ :paperclip: Un fichier controller
+ 
+            Ce fichier gère la gestion d'évènements des carrés de couleurs et des boutons. Ce sont des méthodes publics qui sont appelés à des moment clés du jeu. Lancement de séquence, clic sur carré, demande de sortie...
