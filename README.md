@@ -74,3 +74,25 @@ Dans notre cas, notre projet regroupe les class cités ci dessus :
  :paperclip: Un fichier controller
  
 > Ce fichier gère la gestion d'évènements des carrés de couleurs et des boutons. Ce sont des méthodes publics qui sont appelés à des moment clés du jeu. Lancement de séquence, clic sur carré, demande de sortie...
+
+## Les difficultés 
+
+L'incident évoqué plus haut a été une grosse difficulté à gérer. Ajouté à cela une gestion pas toujours exemplaire du planning et des phases de bugs ou le projet était mis en suspens.
+
+Les tutoriels de JAVA FXML ne sont pas si nombreux et rarement en français d'ailleurs. La moindre action demande une longue période de recherche bien qu'au final elle soit simple à écrire.
+
+D'un point de vue plus global, la gestion de la vue en lien avec le controller ou avec le SimonSays était la grosse difficulté du projet. Proposer une vue fixe est quelque chose d'assez simple à faire en XML. Faire une vue dynamique et interractive est d'un tout autre niveau.
+
+## Le bilan
+
+Ce projet a été tortueux et complexe a bien des égards :
+
+Des séances de cours pour avancer davantage dessus nous faisaient défaut.
+Un poste a disparu en route, et ses données avec.
+De nombreux bugs sur des événements au clic pas toujours explicites.
+
+Malgré cela, la réussite d'avoir atteint le mid cap du projet indique la bonne expérience que ce projet a été.
+
+## Les améliorations 
+
+Si ce projet était à refaire ou à paufiner, j'aimerais beaucoup atteindre le hard cap fixé initialement. Et aussi faire le style en css :  propose plus de possibilités et une gestion des évènements beaucoup plus simple.
